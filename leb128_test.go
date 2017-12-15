@@ -44,7 +44,7 @@ func bytesToBinary(b []byte) string {
 	parts := make([]string, l)
 
 	for i, v := range b {
-		parts[l-i-1] = fmt.Sprintf("%#08b", v)
+		parts[l-i-1] = fmt.Sprintf("%08b", v)
 	}
 
 	return strings.Join(parts, " ")
