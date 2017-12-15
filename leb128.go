@@ -94,7 +94,7 @@ func DecodeUleb128(b []byte) (u uint64, n uint8) {
 	return
 }
 
-// DecodeUleb128 decodes b to s with signed LEB128 encoding and returns the
+// DecodeSleb128 decodes b to s with signed LEB128 encoding and returns the
 // number of bytes read. On error (bad encoded b), n will be 0 and therefore s
 // must not be trusted.
 func DecodeSleb128(b []byte) (s int64, n uint8) {
