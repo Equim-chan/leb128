@@ -1,4 +1,9 @@
+// Copyright 2017 Equim. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
 // Package leb128 implements LEB128 codec.
+//
 // The encode part is a fork of https://golang.org/src/cmd/internal/dwarf/dwarf.go
 package leb128 // import "ekyu.moe/leb128"
 
