@@ -10,9 +10,9 @@ Go implementation of [Little Endian Base 128 codec](https://en.wikipedia.org/wik
 
 ## Install
 ```bash
-$ go get -u ekyu.moe/base256
+$ go get -u ekyu.moe/leb128
 # or better
-$ dep ensure -add ekyu.moe/base256
+$ dep ensure -add ekyu.moe/leb128
 ```
 
 ## Example
@@ -44,6 +44,6 @@ func main() {
 ```
 
 ## LICENSE
-[BSD-3-clause](https://github.com/Equim-chan/base256/blob/master/LICENSE)
+[BSD-3-clause](https://github.com/Equim-chan/leb128/blob/master/LICENSE)
 
 Notes: The encode part is an edited fork of [/src/cmd/internal/dwarf/dwarf.go](https://golang.org/src/cmd/internal/dwarf/dwarf.go) licensed under [a BSD-style license](https://golang.org/LICENSE).
